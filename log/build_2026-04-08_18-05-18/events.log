@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.001534] (icm20948_driver) JobQueued: {'identifier': 'icm20948_driver', 'dependencies': OrderedDict()}
+[0.002052] (icm20948_driver) JobStarted: {'identifier': 'icm20948_driver'}
+[0.031689] (icm20948_driver) JobProgress: {'identifier': 'icm20948_driver', 'progress': 'cmake'}
+[0.033781] (icm20948_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/icm20948_driver', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/icm20948_driver'], 'cwd': '/home/ubuntu/ros2_ws/build/icm20948_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.4 53199 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/icm20948_driver'), ('SSH_CONNECTION', '192.168.1.4 53199 192.168.1.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099102] (-) TimerEvent: {}
+[0.199884] (-) TimerEvent: {}
+[0.298171] (icm20948_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299998] (-) TimerEvent: {}
+[0.400798] (-) TimerEvent: {}
+[0.501618] (-) TimerEvent: {}
+[0.546302] (icm20948_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.575962] (icm20948_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601779] (-) TimerEvent: {}
+[0.702554] (-) TimerEvent: {}
+[0.803312] (-) TimerEvent: {}
+[0.871086] (icm20948_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.896240] (icm20948_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.897067] (icm20948_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.898422] (icm20948_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.903458] (-) TimerEvent: {}
+[0.909357] (icm20948_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.003701] (-) TimerEvent: {}
+[1.104533] (-) TimerEvent: {}
+[1.205311] (-) TimerEvent: {}
+[1.231131] (icm20948_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.257960] (icm20948_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.258845] (icm20948_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.260736] (icm20948_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.281090] (icm20948_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.305457] (-) TimerEvent: {}
+[1.406068] (-) TimerEvent: {}
+[1.506743] (-) TimerEvent: {}
+[1.607431] (-) TimerEvent: {}
+[1.708133] (-) TimerEvent: {}
+[1.809011] (-) TimerEvent: {}
+[1.909667] (-) TimerEvent: {}
+[1.940000] (icm20948_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.009840] (-) TimerEvent: {}
+[2.110504] (-) TimerEvent: {}
+[2.211207] (-) TimerEvent: {}
+[2.311853] (-) TimerEvent: {}
+[2.389466] (icm20948_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.412020] (-) TimerEvent: {}
+[2.512649] (-) TimerEvent: {}
+[2.613264] (-) TimerEvent: {}
+[2.630972] (icm20948_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.662382] (icm20948_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.707036] (icm20948_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.713388] (-) TimerEvent: {}
+[2.767102] (icm20948_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.813552] (-) TimerEvent: {}
+[2.848259] (icm20948_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.913732] (-) TimerEvent: {}
+[3.014373] (-) TimerEvent: {}
+[3.070242] (icm20948_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.086149] (icm20948_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.114534] (-) TimerEvent: {}
+[3.215195] (-) TimerEvent: {}
+[3.315897] (-) TimerEvent: {}
+[3.416665] (-) TimerEvent: {}
+[3.512182] (icm20948_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.516827] (-) TimerEvent: {}
+[3.617540] (-) TimerEvent: {}
+[3.662556] (icm20948_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.717706] (-) TimerEvent: {}
+[3.818368] (-) TimerEvent: {}
+[3.905474] (icm20948_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.918553] (-) TimerEvent: {}
+[3.956166] (icm20948_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.018747] (-) TimerEvent: {}
+[4.119889] (-) TimerEvent: {}
+[4.221404] (-) TimerEvent: {}
+[4.299643] (icm20948_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.301586] (icm20948_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.321571] (-) TimerEvent: {}
+[4.422241] (-) TimerEvent: {}
+[4.522956] (-) TimerEvent: {}
+[4.612747] (icm20948_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.617522] (icm20948_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.623101] (-) TimerEvent: {}
+[4.723808] (-) TimerEvent: {}
+[4.824506] (-) TimerEvent: {}
+[4.839896] (icm20948_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.924692] (-) TimerEvent: {}
+[5.025340] (-) TimerEvent: {}
+[5.125925] (-) TimerEvent: {}
+[5.226672] (-) TimerEvent: {}
+[5.231101] (icm20948_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.260441] (icm20948_driver) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (add_executable):\n'}
+[5.261160] (icm20948_driver) StderrLine: {'line': b'  Target "icm20948_node" links to target "sensor_msgs::sensor_msgs" but the\n'}
+[5.261494] (icm20948_driver) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[5.261797] (icm20948_driver) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[5.262074] (icm20948_driver) StderrLine: {'line': b'\n'}
+[5.262340] (icm20948_driver) StderrLine: {'line': b'\x1b[0m\n'}
+[5.283039] (icm20948_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[5.287516] (icm20948_driver) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[5.318995] (icm20948_driver) CommandEnded: {'returncode': 1}
+[5.326812] (-) TimerEvent: {}
+[5.401492] (icm20948_driver) JobEnded: {'identifier': 'icm20948_driver', 'rc': 1}
+[5.413147] (-) EventReactorShutdown: {}

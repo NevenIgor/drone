@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.001280] (-) JobUnselected: {'identifier': 'camera_models'}
+[0.001566] (-) JobUnselected: {'identifier': 'global_fusion'}
+[0.001665] (-) JobUnselected: {'identifier': 'icm20948_driver'}
+[0.001742] (-) JobUnselected: {'identifier': 'loop_fusion'}
+[0.001816] (-) JobUnselected: {'identifier': 'mission_node'}
+[0.001890] (-) JobUnselected: {'identifier': 'msp_bridge'}
+[0.001964] (-) JobUnselected: {'identifier': 'vins'}
+[0.002088] (-) JobUnselected: {'identifier': 'vo_system'}
+[0.002704] (-) EventReactorShutdown: {}

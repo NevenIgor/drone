@@ -1,0 +1,3 @@
+[console_scripts]
+simple_vo_node = simple_vo.simple_vo_node:main
+

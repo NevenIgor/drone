@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.001576] (icm20948_driver) JobQueued: {'identifier': 'icm20948_driver', 'dependencies': OrderedDict()}
+[0.002091] (icm20948_driver) JobStarted: {'identifier': 'icm20948_driver'}
+[0.032313] (icm20948_driver) JobProgress: {'identifier': 'icm20948_driver', 'progress': 'cmake'}
+[0.034252] (icm20948_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/icm20948_driver', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/icm20948_driver'], 'cwd': '/home/ubuntu/ros2_ws/build/icm20948_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.4 53199 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src/icm20948_driver'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/icm20948_driver'), ('SSH_CONNECTION', '192.168.1.4 53199 192.168.1.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099151] (-) TimerEvent: {}
+[0.199969] (-) TimerEvent: {}
+[0.289171] (icm20948_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300140] (-) TimerEvent: {}
+[0.400907] (-) TimerEvent: {}
+[0.501657] (-) TimerEvent: {}
+[0.532530] (icm20948_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.561206] (icm20948_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601875] (-) TimerEvent: {}
+[0.702637] (-) TimerEvent: {}
+[0.803453] (-) TimerEvent: {}
+[0.853977] (icm20948_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.880525] (icm20948_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.881336] (icm20948_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.882654] (icm20948_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.893131] (icm20948_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.903601] (-) TimerEvent: {}
+[1.004341] (-) TimerEvent: {}
+[1.105131] (-) TimerEvent: {}
+[1.205937] (-) TimerEvent: {}
+[1.220754] (icm20948_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.248123] (icm20948_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.249307] (icm20948_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.250835] (icm20948_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.269638] (icm20948_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.306106] (-) TimerEvent: {}
+[1.406760] (-) TimerEvent: {}
+[1.507387] (-) TimerEvent: {}
+[1.608052] (-) TimerEvent: {}
+[1.708980] (-) TimerEvent: {}
+[1.809853] (-) TimerEvent: {}
+[1.910711] (-) TimerEvent: {}
+[1.924116] (icm20948_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.010850] (-) TimerEvent: {}
+[2.111522] (-) TimerEvent: {}
+[2.212172] (-) TimerEvent: {}
+[2.312820] (-) TimerEvent: {}
+[2.360758] (icm20948_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.412982] (-) TimerEvent: {}
+[2.513632] (-) TimerEvent: {}
+[2.593093] (icm20948_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.613784] (-) TimerEvent: {}
+[2.623390] (icm20948_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.666543] (icm20948_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.713940] (-) TimerEvent: {}
+[2.724421] (icm20948_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.802283] (icm20948_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.814071] (-) TimerEvent: {}
+[2.914698] (-) TimerEvent: {}
+[3.015356] (-) TimerEvent: {}
+[3.016985] (icm20948_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.032328] (icm20948_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.115515] (-) TimerEvent: {}
+[3.216151] (-) TimerEvent: {}
+[3.316868] (-) TimerEvent: {}
+[3.417737] (-) TimerEvent: {}
+[3.469186] (icm20948_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.517888] (-) TimerEvent: {}
+[3.614422] (icm20948_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.618019] (-) TimerEvent: {}
+[3.718615] (-) TimerEvent: {}
+[3.819365] (-) TimerEvent: {}
+[3.849656] (icm20948_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.898063] (icm20948_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.919579] (-) TimerEvent: {}
+[4.020363] (-) TimerEvent: {}
+[4.121117] (-) TimerEvent: {}
+[4.205884] (icm20948_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.207643] (icm20948_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.221277] (-) TimerEvent: {}
+[4.321923] (-) TimerEvent: {}
+[4.423279] (-) TimerEvent: {}
+[4.514867] (icm20948_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.518865] (icm20948_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.523401] (-) TimerEvent: {}
+[4.624019] (-) TimerEvent: {}
+[4.724747] (-) TimerEvent: {}
+[4.736529] (icm20948_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.824897] (-) TimerEvent: {}
+[4.925645] (-) TimerEvent: {}
+[5.026220] (-) TimerEvent: {}
+[5.126858] (-) TimerEvent: {}
+[5.128519] (icm20948_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.180936] (icm20948_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[5.195872] (icm20948_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/icm20948_driver\n'}
+[5.226578] (icm20948_driver) CommandEnded: {'returncode': 0}
+[5.227767] (-) TimerEvent: {}
+[5.228772] (icm20948_driver) JobProgress: {'identifier': 'icm20948_driver', 'progress': 'build'}
+[5.231566] (icm20948_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/icm20948_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/icm20948_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.4 53199 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src/icm20948_driver'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/icm20948_driver'), ('SSH_CONNECTION', '192.168.1.4 53199 192.168.1.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.328006] (-) TimerEvent: {}
+[5.427203] (icm20948_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/icm20948_node.dir/src/icm20948_node.cpp.o\x1b[0m\n'}
+[5.428152] (-) TimerEvent: {}
+[5.528855] (-) TimerEvent: {}
+[5.629520] (-) TimerEvent: {}
+[5.730177] (-) TimerEvent: {}
+[5.830830] (-) TimerEvent: {}
+[5.931470] (-) TimerEvent: {}
+[6.032128] (-) TimerEvent: {}
+[6.132823] (-) TimerEvent: {}
+[6.233460] (-) TimerEvent: {}
+[6.334104] (-) TimerEvent: {}
+[6.434748] (-) TimerEvent: {}
+[6.535372] (-) TimerEvent: {}
+[6.636032] (-) TimerEvent: {}
+[6.736688] (-) TimerEvent: {}
+[6.837329] (-) TimerEvent: {}
+[6.937983] (-) TimerEvent: {}
+[7.038662] (-) TimerEvent: {}
+[7.139378] (-) TimerEvent: {}
+[7.240076] (-) TimerEvent: {}
+[7.340769] (-) TimerEvent: {}
+[7.441413] (-) TimerEvent: {}
+[7.542083] (-) TimerEvent: {}
+[7.642803] (-) TimerEvent: {}
+[7.743526] (-) TimerEvent: {}
+[7.844223] (-) TimerEvent: {}
+[7.944955] (-) TimerEvent: {}
+[8.045633] (-) TimerEvent: {}
+[8.146308] (-) TimerEvent: {}
+[8.246995] (-) TimerEvent: {}
+[8.347667] (-) TimerEvent: {}
+[8.448381] (-) TimerEvent: {}
+[8.549105] (-) TimerEvent: {}
+[8.649823] (-) TimerEvent: {}
+[8.750493] (-) TimerEvent: {}
+[8.851180] (-) TimerEvent: {}
+[8.951902] (-) TimerEvent: {}
+[9.052577] (-) TimerEvent: {}
+[9.153361] (-) TimerEvent: {}
+[9.254281] (-) TimerEvent: {}
+[9.354968] (-) TimerEvent: {}
+[9.455691] (-) TimerEvent: {}
+[9.556499] (-) TimerEvent: {}
+[9.657228] (-) TimerEvent: {}
+[9.757912] (-) TimerEvent: {}
+[9.858606] (-) TimerEvent: {}
+[9.959306] (-) TimerEvent: {}
+[10.060066] (-) TimerEvent: {}
+[10.160811] (-) TimerEvent: {}
+[10.261495] (-) TimerEvent: {}
+[10.362206] (-) TimerEvent: {}
+[10.462887] (-) TimerEvent: {}
+[10.563577] (-) TimerEvent: {}
+[10.664381] (-) TimerEvent: {}
+[10.765235] (-) TimerEvent: {}
+[10.865908] (-) TimerEvent: {}
+[10.966588] (-) TimerEvent: {}
+[11.067263] (-) TimerEvent: {}
+[11.167979] (-) TimerEvent: {}
+[11.268645] (-) TimerEvent: {}
+[11.369379] (-) TimerEvent: {}
+[11.470052] (-) TimerEvent: {}
+[11.570740] (-) TimerEvent: {}
+[11.671485] (-) TimerEvent: {}
+[11.772194] (-) TimerEvent: {}
+[11.872866] (-) TimerEvent: {}
+[11.973533] (-) TimerEvent: {}
+[12.074193] (-) TimerEvent: {}
+[12.174914] (-) TimerEvent: {}
+[12.275613] (-) TimerEvent: {}
+[12.376302] (-) TimerEvent: {}
+[12.477002] (-) TimerEvent: {}
+[12.577664] (-) TimerEvent: {}
+[12.678357] (-) TimerEvent: {}
+[12.779037] (-) TimerEvent: {}
+[12.879725] (-) TimerEvent: {}
+[12.980449] (-) TimerEvent: {}
+[13.081182] (-) TimerEvent: {}
+[13.181862] (-) TimerEvent: {}
+[13.282519] (-) TimerEvent: {}
+[13.383186] (-) TimerEvent: {}
+[13.483884] (-) TimerEvent: {}
+[13.584563] (-) TimerEvent: {}
+[13.685284] (-) TimerEvent: {}
+[13.785965] (-) TimerEvent: {}
+[13.886661] (-) TimerEvent: {}
+[13.987451] (-) TimerEvent: {}
+[14.088200] (-) TimerEvent: {}
+[14.188908] (-) TimerEvent: {}
+[14.294720] (-) TimerEvent: {}
+[14.395438] (-) TimerEvent: {}
+[14.496136] (-) TimerEvent: {}
+[14.596868] (-) TimerEvent: {}
+[14.697551] (-) TimerEvent: {}
+[14.798235] (-) TimerEvent: {}
+[14.898958] (-) TimerEvent: {}
+[14.999654] (-) TimerEvent: {}
+[15.100321] (-) TimerEvent: {}
+[15.201025] (-) TimerEvent: {}
+[15.301702] (-) TimerEvent: {}
+[15.402389] (-) TimerEvent: {}
+[15.503061] (-) TimerEvent: {}
+[15.603734] (-) TimerEvent: {}
+[15.704435] (-) TimerEvent: {}
+[15.805141] (-) TimerEvent: {}
+[15.905824] (-) TimerEvent: {}
+[16.006488] (-) TimerEvent: {}
+[16.107166] (-) TimerEvent: {}
+[16.207882] (-) TimerEvent: {}
+[16.308668] (-) TimerEvent: {}
+[16.409363] (-) TimerEvent: {}
+[16.510030] (-) TimerEvent: {}
+[16.610703] (-) TimerEvent: {}
+[16.711400] (-) TimerEvent: {}
+[16.812056] (-) TimerEvent: {}
+[16.912795] (-) TimerEvent: {}
+[17.013463] (-) TimerEvent: {}
+[17.114118] (-) TimerEvent: {}
+[17.214800] (-) TimerEvent: {}
+[17.315547] (-) TimerEvent: {}
+[17.416469] (-) TimerEvent: {}
+[17.517167] (-) TimerEvent: {}
+[17.617861] (-) TimerEvent: {}
+[17.718571] (-) TimerEvent: {}
+[17.819269] (-) TimerEvent: {}
+[17.919958] (-) TimerEvent: {}
+[18.020800] (-) TimerEvent: {}
+[18.121467] (-) TimerEvent: {}
+[18.222116] (-) TimerEvent: {}
+[18.322771] (-) TimerEvent: {}
+[18.423424] (-) TimerEvent: {}
+[18.524113] (-) TimerEvent: {}
+[18.624806] (-) TimerEvent: {}
+[18.725500] (-) TimerEvent: {}
+[18.826167] (-) TimerEvent: {}
+[18.926833] (-) TimerEvent: {}
+[19.027529] (-) TimerEvent: {}
+[19.128214] (-) TimerEvent: {}
+[19.228942] (-) TimerEvent: {}
+[19.329611] (-) TimerEvent: {}
+[19.430371] (-) TimerEvent: {}
+[19.531057] (-) TimerEvent: {}
+[19.631740] (-) TimerEvent: {}
+[19.732425] (-) TimerEvent: {}
+[19.833117] (-) TimerEvent: {}
+[19.933789] (-) TimerEvent: {}
+[20.034484] (-) TimerEvent: {}
+[20.135163] (-) TimerEvent: {}
+[20.235855] (-) TimerEvent: {}
+[20.336519] (-) TimerEvent: {}
+[20.437237] (-) TimerEvent: {}
+[20.537875] (-) TimerEvent: {}
+[20.638523] (-) TimerEvent: {}
+[20.739244] (-) TimerEvent: {}
+[20.839892] (-) TimerEvent: {}
+[20.940550] (-) TimerEvent: {}
+[21.041253] (-) TimerEvent: {}
+[21.141923] (-) TimerEvent: {}
+[21.242635] (-) TimerEvent: {}
+[21.343586] (-) TimerEvent: {}
+[21.444506] (-) TimerEvent: {}
+[21.545268] (-) TimerEvent: {}
+[21.645989] (-) TimerEvent: {}
+[21.746711] (-) TimerEvent: {}
+[21.847397] (-) TimerEvent: {}
+[21.948150] (-) TimerEvent: {}
+[22.048993] (-) TimerEvent: {}
+[22.149804] (-) TimerEvent: {}
+[22.188832] (icm20948_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable icm20948_node\x1b[0m\n'}
+[22.250022] (-) TimerEvent: {}
+[22.350930] (-) TimerEvent: {}
+[22.452186] (-) TimerEvent: {}
+[22.553611] (-) TimerEvent: {}
+[22.654768] (-) TimerEvent: {}
+[22.755654] (-) TimerEvent: {}
+[22.856400] (-) TimerEvent: {}
+[22.957083] (-) TimerEvent: {}
+[23.057809] (-) TimerEvent: {}
+[23.133512] (icm20948_driver) StdoutLine: {'line': b'[100%] Built target icm20948_node\n'}
+[23.158009] (-) TimerEvent: {}
+[23.169190] (icm20948_driver) CommandEnded: {'returncode': 0}
+[23.171108] (icm20948_driver) JobProgress: {'identifier': 'icm20948_driver', 'progress': 'install'}
+[23.201796] (icm20948_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_ws/build/icm20948_driver'], 'cwd': '/home/ubuntu/ros2_ws/build/icm20948_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.4 53199 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src/icm20948_driver'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/icm20948_driver'), ('SSH_CONNECTION', '192.168.1.4 53199 192.168.1.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.231290] (icm20948_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.232001] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/lib/icm20948_driver/icm20948_node\n'}
+[23.241390] (icm20948_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2_ws/install/icm20948_driver/lib/icm20948_driver/icm20948_node" to ""\n'}
+[23.242206] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/ament_index/resource_index/package_run_dependencies/icm20948_driver\n'}
+[23.243747] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/ament_index/resource_index/parent_prefix_path/icm20948_driver\n'}
+[23.245274] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/environment/ament_prefix_path.sh\n'}
+[23.246328] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/environment/ament_prefix_path.dsv\n'}
+[23.247398] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/environment/path.sh\n'}
+[23.248396] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/environment/path.dsv\n'}
+[23.249439] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/local_setup.bash\n'}
+[23.250507] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/local_setup.sh\n'}
+[23.251577] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/local_setup.zsh\n'}
+[23.252586] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/local_setup.dsv\n'}
+[23.253764] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.dsv\n'}
+[23.255018] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/ament_index/resource_index/packages/icm20948_driver\n'}
+[23.256295] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/cmake/icm20948_driverConfig.cmake\n'}
+[23.257262] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/cmake/icm20948_driverConfig-version.cmake\n'}
+[23.258091] (-) TimerEvent: {}
+[23.258545] (icm20948_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.xml\n'}
+[23.264009] (icm20948_driver) CommandEnded: {'returncode': 0}
+[23.337108] (icm20948_driver) JobEnded: {'identifier': 'icm20948_driver', 'rc': 0}
+[23.339454] (-) EventReactorShutdown: {}

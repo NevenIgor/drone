@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target msp_bridge_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o[0m
+[100%] [32m[1mLinking CXX executable msp_bridge_node[0m
+[100%] Built target msp_bridge_node
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/lib/msp_bridge/msp_bridge_node
+-- Set runtime path of "/home/ubuntu/ros2_ws/install/msp_bridge/lib/msp_bridge/msp_bridge_node" to ""
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/package_run_dependencies/msp_bridge
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/parent_prefix_path/msp_bridge
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.bash
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/packages/msp_bridge
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/cmake/msp_bridgeConfig.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/cmake/msp_bridgeConfig-version.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.xml

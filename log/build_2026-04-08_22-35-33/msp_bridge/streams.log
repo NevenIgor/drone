@@ -1,0 +1,57 @@
+[0.053s] Invoking command in '/home/ubuntu/ros2_ws/build/msp_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/msp_bridge -- -j4 -l4
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target msp_bridge_node[0m
+[0.308s] [ 50%] [32mBuilding CXX object CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o[0m
+[9.968s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[9.970s]   177 |         payload.push_back(vacc & 0xFF
+[9.970s]       |                                      [01;31m[K^[m[K
+[9.970s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:12:43:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[9.971s]    12 | class GPSBridgeNode : public rclcpp::Node [01;36m[K{[m[K
+[9.971s]       |                                           [01;36m[K^[m[K
+[9.972s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:[m[K In constructor ‘[01m[KGPSBridgeNode::GPSBridgeNode()[m[K’:
+[9.972s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:14:43:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KGPSBridgeNode[m[K’ does not have any field named ‘[01m[Kuart_fd_[m[K’
+[9.973s]    14 |     GPSBridgeNode() : Node("gps_bridge"), [01;31m[Kuart_fd_[m[K(-1) {
+[9.973s]       |                                           [01;31m[K^~~~~~~~[m[K
+[10.008s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_lat_[m[K’ was not declared in this scope
+[10.008s]    25 |         [01;31m[Kbase_lat_[m[K = get_parameter("base_lat").as_double();
+[10.009s]       |         [01;31m[K^~~~~~~~~[m[K
+[10.031s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_lon_[m[K’ was not declared in this scope
+[10.031s]    26 |         [01;31m[Kbase_lon_[m[K = get_parameter("base_lon").as_double();
+[10.032s]       |         [01;31m[K^~~~~~~~~[m[K
+[10.053s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_alt_[m[K’ was not declared in this scope
+[10.053s]    27 |         [01;31m[Kbase_alt_[m[K = get_parameter("base_alt").as_double();
+[10.054s]       |         [01;31m[K^~~~~~~~~[m[K
+[10.078s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+[10.078s]    35 |         [01;31m[Kodom_sub_[m[K = this->create_subscription<nav_msgs::msg::Odometry>(
+[10.079s]       |         [01;31m[K^~~~~~~~~[m[K
+[10.079s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:37:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_callback[m[K’ is not a member of ‘[01m[KGPSBridgeNode[m[K’
+[10.079s]    37 |             std::bind(&GPSBridgeNode::[01;31m[Kodom_callback[m[K, this, std::placeholders::_1)
+[10.080s]       |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[10.103s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:[m[K In destructor ‘[01m[Kvirtual GPSBridgeNode::~GPSBridgeNode()[m[K’:
+[10.104s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:44:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kuart_fd_[m[K’ was not declared in this scope
+[10.104s]    44 |         if ([01;31m[Kuart_fd_[m[K >= 0) close(uart_fd_);
+[10.105s]       |             [01;31m[K^~~~~~~~[m[K
+[10.125s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:[m[K In member function ‘[01m[Kbool GPSBridgeNode::init_uart(const string&, int)[m[K’:
+[10.126s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kuart_fd_[m[K’ was not declared in this scope
+[10.126s]    49 |         [01;31m[Kuart_fd_[m[K = open(port.c_str(), O_RDWR | O_NOCTTY | O_NDELAY);
+[10.127s]       |         [01;31m[K^~~~~~~~[m[K
+[10.135s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:[m[K In member function ‘[01m[Kvoid GPSBridgeNode::send_ublox_nav_pvt(int32_t, int32_t, int32_t, uint8_t)[m[K’:
+[10.136s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ at end of input
+[10.136s]   177 |         payload.push_back(vacc & 0xFF
+[10.137s]       |                                      [01;31m[K^[m[K
+[10.137s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:26:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[10.138s]   177 |         payload.push_back[01;36m[K([m[Kvacc & 0xFF
+[10.138s]       |                          [01;36m[K^[m[K
+[10.138s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[10.139s]   177 |         payload.push_back(vacc & 0xFF
+[10.139s]       |                                      [01;31m[K^[m[K
+[10.139s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:96:93:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[10.140s]    96 |     void send_ublox_nav_pvt(int32_t lat, int32_t lon, int32_t alt_mm, uint8_t fix_type = 3) [01;36m[K{[m[K
+[10.140s]       |                                                                                             [01;36m[K^[m[K
+[10.141s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:[m[K At global scope:
+[10.141s] [01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:38:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[10.141s]   177 |         payload.push_back(vacc & 0xFF
+[10.142s]       |                                      [01;31m[K^[m[K
+[11.612s] gmake[2]: *** [CMakeFiles/msp_bridge_node.dir/build.make:76: CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o] Error 1
+[11.612s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/msp_bridge_node.dir/all] Error 2
+[11.613s] gmake: *** [Makefile:146: all] Error 2
+[11.620s] Invoked command in '/home/ubuntu/ros2_ws/build/msp_bridge' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/msp_bridge -- -j4 -l4

@@ -1,0 +1,8 @@
+[01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:[m[K In member function ‘[01m[Kbool GPSBridgeNode::init_uart(const string&, int)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:44:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbaud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 |     bool init_uart(const std::string& port, [01;35m[Kint baud[m[K) {
+      |                                             [01;35m[K~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:[m[K In member function ‘[01m[Kvoid GPSBridgeNode::send_ublox_nav_pvt(int32_t, int32_t, int32_t, uint8_t)[m[K’:
+[01m[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:78:22:[m[K [01;35m[Kwarning: [m[Kunsigned conversion from ‘[01m[Kint[m[K’ to ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<unsigned char>, unsigned char>::value_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} changes value from ‘[01m[K2024[m[K’ to ‘[01m[K232[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   78 |         payload[4] = [01;35m[K2024[m[K;  // year
+      |                      [01;35m[K^~~~[m[K

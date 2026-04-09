@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_ws/build/msp_bridge
+[ 50%] [32mBuilding CXX object CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o[0m
+[100%] [32m[1mLinking CXX executable msp_bridge_node[0m
+[100%] Built target msp_bridge_node
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/lib/msp_bridge/msp_bridge_node
+-- Set runtime path of "/home/ubuntu/ros2_ws/install/msp_bridge/lib/msp_bridge/msp_bridge_node" to ""
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/package_run_dependencies/msp_bridge
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/parent_prefix_path/msp_bridge
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/path.sh
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/path.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.bash
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.sh
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.zsh
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/packages/msp_bridge
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/cmake/msp_bridgeConfig.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/cmake/msp_bridgeConfig-version.cmake
+-- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.xml

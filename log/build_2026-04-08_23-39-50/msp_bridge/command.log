@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/msp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/msp_bridge -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/msp_bridge
+Invoked command in '/home/ubuntu/ros2_ws/build/msp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/msp_bridge -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/msp_bridge
+Invoking command in '/home/ubuntu/ros2_ws/build/msp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/msp_bridge -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_ws/build/msp_bridge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/msp_bridge -- -j4 -l4

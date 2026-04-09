@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/icm20948_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/icm20948_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/icm20948_driver
+Invoked command in '/home/ubuntu/ros2_ws/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/icm20948_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/icm20948_driver
+Invoking command in '/home/ubuntu/ros2_ws/build/icm20948_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/icm20948_driver -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_ws/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/icm20948_driver -- -j4 -l4
+Invoking command in '/home/ubuntu/ros2_ws/build/icm20948_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/icm20948_driver
+Invoked command in '/home/ubuntu/ros2_ws/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/icm20948_driver

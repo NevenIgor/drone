@@ -1,0 +1,365 @@
+[0.000000] (-) TimerEvent: {}
+[0.001564] (-) JobUnselected: {'identifier': 'icm20948_driver'}
+[0.002104] (-) JobUnselected: {'identifier': 'vo_system'}
+[0.002199] (msp_bridge) JobQueued: {'identifier': 'msp_bridge', 'dependencies': OrderedDict()}
+[0.002288] (msp_bridge) JobStarted: {'identifier': 'msp_bridge'}
+[0.032101] (msp_bridge) JobProgress: {'identifier': 'msp_bridge', 'progress': 'cmake'}
+[0.034038] (msp_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_ws/src/msp_bridge', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/msp_bridge'], 'cwd': '/home/ubuntu/ros2_ws/build/msp_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.4 53460 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/msp_bridge'), ('SSH_CONNECTION', '192.168.1.4 53460 192.168.1.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099079] (-) TimerEvent: {}
+[0.199945] (-) TimerEvent: {}
+[0.293725] (msp_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300163] (-) TimerEvent: {}
+[0.400993] (-) TimerEvent: {}
+[0.501755] (-) TimerEvent: {}
+[0.542558] (msp_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.574575] (msp_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601933] (-) TimerEvent: {}
+[0.702601] (-) TimerEvent: {}
+[0.803310] (-) TimerEvent: {}
+[0.875711] (msp_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.903454] (msp_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.904009] (-) TimerEvent: {}
+[0.904548] (msp_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.905721] (msp_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.916446] (msp_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.004350] (-) TimerEvent: {}
+[1.105353] (-) TimerEvent: {}
+[1.206379] (-) TimerEvent: {}
+[1.253037] (msp_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.278990] (msp_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.279886] (msp_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.281498] (msp_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.302213] (msp_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.306430] (-) TimerEvent: {}
+[1.406982] (-) TimerEvent: {}
+[1.507620] (-) TimerEvent: {}
+[1.608294] (-) TimerEvent: {}
+[1.708869] (-) TimerEvent: {}
+[1.809506] (-) TimerEvent: {}
+[1.910141] (-) TimerEvent: {}
+[1.973734] (msp_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.010351] (-) TimerEvent: {}
+[2.111006] (-) TimerEvent: {}
+[2.211839] (-) TimerEvent: {}
+[2.313020] (-) TimerEvent: {}
+[2.413661] (-) TimerEvent: {}
+[2.442852] (msp_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.513834] (-) TimerEvent: {}
+[2.614482] (-) TimerEvent: {}
+[2.699426] (msp_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.714652] (-) TimerEvent: {}
+[2.733190] (msp_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.780160] (msp_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.814825] (-) TimerEvent: {}
+[2.842302] (msp_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.914992] (-) TimerEvent: {}
+[2.926430] (msp_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.015191] (-) TimerEvent: {}
+[3.115836] (-) TimerEvent: {}
+[3.158300] (msp_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.175243] (msp_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.216008] (-) TimerEvent: {}
+[3.316684] (-) TimerEvent: {}
+[3.417398] (-) TimerEvent: {}
+[3.518255] (-) TimerEvent: {}
+[3.618971] (-) TimerEvent: {}
+[3.624801] (msp_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.719139] (-) TimerEvent: {}
+[3.787526] (msp_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.819313] (-) TimerEvent: {}
+[3.919950] (-) TimerEvent: {}
+[4.020642] (-) TimerEvent: {}
+[4.052587] (msp_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.106177] (msp_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.120819] (-) TimerEvent: {}
+[4.221474] (-) TimerEvent: {}
+[4.322202] (-) TimerEvent: {}
+[4.422950] (-) TimerEvent: {}
+[4.428160] (msp_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.430232] (msp_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.523317] (-) TimerEvent: {}
+[4.624244] (-) TimerEvent: {}
+[4.725055] (-) TimerEvent: {}
+[4.748839] (msp_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.753390] (msp_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.825237] (-) TimerEvent: {}
+[4.925942] (-) TimerEvent: {}
+[4.983616] (msp_bridge) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.026135] (-) TimerEvent: {}
+[5.126826] (-) TimerEvent: {}
+[5.227482] (-) TimerEvent: {}
+[5.328467] (-) TimerEvent: {}
+[5.376809] (msp_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.428598] (-) TimerEvent: {}
+[5.432628] (msp_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[5.447681] (msp_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/msp_bridge\n'}
+[5.479586] (msp_bridge) CommandEnded: {'returncode': 0}
+[5.481331] (msp_bridge) JobProgress: {'identifier': 'msp_bridge', 'progress': 'build'}
+[5.483583] (msp_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/msp_bridge', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/msp_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.4 53460 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/msp_bridge'), ('SSH_CONNECTION', '192.168.1.4 53460 192.168.1.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.528808] (-) TimerEvent: {}
+[5.629619] (-) TimerEvent: {}
+[5.685451] (msp_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o\x1b[0m\n'}
+[5.729835] (-) TimerEvent: {}
+[5.830520] (-) TimerEvent: {}
+[5.931159] (-) TimerEvent: {}
+[6.031833] (-) TimerEvent: {}
+[6.132515] (-) TimerEvent: {}
+[6.233196] (-) TimerEvent: {}
+[6.333904] (-) TimerEvent: {}
+[6.434564] (-) TimerEvent: {}
+[6.535276] (-) TimerEvent: {}
+[6.635913] (-) TimerEvent: {}
+[6.736622] (-) TimerEvent: {}
+[6.837262] (-) TimerEvent: {}
+[6.937934] (-) TimerEvent: {}
+[7.038761] (-) TimerEvent: {}
+[7.139517] (-) TimerEvent: {}
+[7.240217] (-) TimerEvent: {}
+[7.340861] (-) TimerEvent: {}
+[7.441507] (-) TimerEvent: {}
+[7.542212] (-) TimerEvent: {}
+[7.642944] (-) TimerEvent: {}
+[7.743717] (-) TimerEvent: {}
+[7.844460] (-) TimerEvent: {}
+[7.945242] (-) TimerEvent: {}
+[8.045933] (-) TimerEvent: {}
+[8.146711] (-) TimerEvent: {}
+[8.247452] (-) TimerEvent: {}
+[8.348157] (-) TimerEvent: {}
+[8.448924] (-) TimerEvent: {}
+[8.549608] (-) TimerEvent: {}
+[8.650354] (-) TimerEvent: {}
+[8.751224] (-) TimerEvent: {}
+[8.851946] (-) TimerEvent: {}
+[8.952817] (-) TimerEvent: {}
+[9.053536] (-) TimerEvent: {}
+[9.154532] (-) TimerEvent: {}
+[9.255248] (-) TimerEvent: {}
+[9.355991] (-) TimerEvent: {}
+[9.456760] (-) TimerEvent: {}
+[9.557486] (-) TimerEvent: {}
+[9.658240] (-) TimerEvent: {}
+[9.759039] (-) TimerEvent: {}
+[9.859757] (-) TimerEvent: {}
+[9.960512] (-) TimerEvent: {}
+[10.061317] (-) TimerEvent: {}
+[10.162046] (-) TimerEvent: {}
+[10.262764] (-) TimerEvent: {}
+[10.363500] (-) TimerEvent: {}
+[10.464263] (-) TimerEvent: {}
+[10.564995] (-) TimerEvent: {}
+[10.665697] (-) TimerEvent: {}
+[10.766458] (-) TimerEvent: {}
+[10.867199] (-) TimerEvent: {}
+[10.967954] (-) TimerEvent: {}
+[11.068702] (-) TimerEvent: {}
+[11.169394] (-) TimerEvent: {}
+[11.270109] (-) TimerEvent: {}
+[11.370815] (-) TimerEvent: {}
+[11.471578] (-) TimerEvent: {}
+[11.572331] (-) TimerEvent: {}
+[11.673053] (-) TimerEvent: {}
+[11.773866] (-) TimerEvent: {}
+[11.874805] (-) TimerEvent: {}
+[11.975562] (-) TimerEvent: {}
+[12.076325] (-) TimerEvent: {}
+[12.177103] (-) TimerEvent: {}
+[12.277825] (-) TimerEvent: {}
+[12.378582] (-) TimerEvent: {}
+[12.479327] (-) TimerEvent: {}
+[12.580027] (-) TimerEvent: {}
+[12.680780] (-) TimerEvent: {}
+[12.781475] (-) TimerEvent: {}
+[12.882194] (-) TimerEvent: {}
+[12.982948] (-) TimerEvent: {}
+[13.083698] (-) TimerEvent: {}
+[13.184420] (-) TimerEvent: {}
+[13.285122] (-) TimerEvent: {}
+[13.385819] (-) TimerEvent: {}
+[13.486593] (-) TimerEvent: {}
+[13.587340] (-) TimerEvent: {}
+[13.688070] (-) TimerEvent: {}
+[13.788855] (-) TimerEvent: {}
+[13.889571] (-) TimerEvent: {}
+[13.990277] (-) TimerEvent: {}
+[14.090979] (-) TimerEvent: {}
+[14.191707] (-) TimerEvent: {}
+[14.292585] (-) TimerEvent: {}
+[14.393341] (-) TimerEvent: {}
+[14.494147] (-) TimerEvent: {}
+[14.594897] (-) TimerEvent: {}
+[14.695629] (-) TimerEvent: {}
+[14.796400] (-) TimerEvent: {}
+[14.897113] (-) TimerEvent: {}
+[14.997833] (-) TimerEvent: {}
+[15.098539] (-) TimerEvent: {}
+[15.199256] (-) TimerEvent: {}
+[15.299998] (-) TimerEvent: {}
+[15.400744] (-) TimerEvent: {}
+[15.501445] (-) TimerEvent: {}
+[15.602219] (-) TimerEvent: {}
+[15.702936] (-) TimerEvent: {}
+[15.803680] (-) TimerEvent: {}
+[15.819511] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGPSBridgeNode::GPSBridgeNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.820462] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:269:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGPSBridgeNode::target_z_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.820916] (msp_bridge) StderrLine: {'line': b'  269 |     float target_x_, target_y_, \x1b[01;35m\x1b[Ktarget_z_\x1b[m\x1b[K;\n'}
+[15.821283] (msp_bridge) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[15.821656] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:266:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble GPSBridgeNode::kp_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.822085] (msp_bridge) StderrLine: {'line': b'  266 |     double \x1b[01;35m\x1b[Kkp_\x1b[m\x1b[K;\n'}
+[15.822435] (msp_bridge) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[15.822778] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:16:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.823197] (msp_bridge) StderrLine: {'line': b'   16 |     \x1b[01;35m\x1b[KGPSBridgeNode\x1b[m\x1b[K() : Node("gps_bridge"),\n'}
+[15.823573] (msp_bridge) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.903892] (-) TimerEvent: {}
+[15.951253] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GPSBridgeNode::compute_and_send_fake_position()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.951827] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:211:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_lon\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbase_lon_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.952251] (msp_bridge) StderrLine: {'line': b'  211 |         int32_t lon = static_cast<int32_t>((\x1b[01;31m\x1b[Kbase_lon\x1b[m\x1b[K + lon_offset) * 10000000.0);\n'}
+[15.952654] (msp_bridge) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.953006] (msp_bridge) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[Kbase_lon_\x1b[m\x1b[K\n'}
+[16.004097] (-) TimerEvent: {}
+[16.104844] (-) TimerEvent: {}
+[16.205581] (-) TimerEvent: {}
+[16.306335] (-) TimerEvent: {}
+[16.407047] (-) TimerEvent: {}
+[16.507758] (-) TimerEvent: {}
+[16.608586] (-) TimerEvent: {}
+[16.709305] (-) TimerEvent: {}
+[16.810020] (-) TimerEvent: {}
+[16.910740] (-) TimerEvent: {}
+[17.011465] (-) TimerEvent: {}
+[17.112265] (-) TimerEvent: {}
+[17.212993] (-) TimerEvent: {}
+[17.313735] (-) TimerEvent: {}
+[17.414481] (-) TimerEvent: {}
+[17.515203] (-) TimerEvent: {}
+[17.616030] (-) TimerEvent: {}
+[17.716863] (-) TimerEvent: {}
+[17.817611] (-) TimerEvent: {}
+[17.918363] (-) TimerEvent: {}
+[18.019123] (-) TimerEvent: {}
+[18.119865] (-) TimerEvent: {}
+[18.220635] (-) TimerEvent: {}
+[18.321368] (-) TimerEvent: {}
+[18.422090] (-) TimerEvent: {}
+[18.522819] (-) TimerEvent: {}
+[18.623566] (-) TimerEvent: {}
+[18.724370] (-) TimerEvent: {}
+[18.825089] (-) TimerEvent: {}
+[18.925809] (-) TimerEvent: {}
+[19.026530] (-) TimerEvent: {}
+[19.127345] (-) TimerEvent: {}
+[19.228113] (-) TimerEvent: {}
+[19.328989] (-) TimerEvent: {}
+[19.429716] (-) TimerEvent: {}
+[19.530437] (-) TimerEvent: {}
+[19.631179] (-) TimerEvent: {}
+[19.731890] (-) TimerEvent: {}
+[19.832718] (-) TimerEvent: {}
+[19.933421] (-) TimerEvent: {}
+[20.034142] (-) TimerEvent: {}
+[20.134897] (-) TimerEvent: {}
+[20.235619] (-) TimerEvent: {}
+[20.336334] (-) TimerEvent: {}
+[20.437033] (-) TimerEvent: {}
+[20.537760] (-) TimerEvent: {}
+[20.638529] (-) TimerEvent: {}
+[20.739256] (-) TimerEvent: {}
+[20.839973] (-) TimerEvent: {}
+[20.940714] (-) TimerEvent: {}
+[21.041465] (-) TimerEvent: {}
+[21.142201] (-) TimerEvent: {}
+[21.242961] (-) TimerEvent: {}
+[21.343820] (-) TimerEvent: {}
+[21.444602] (-) TimerEvent: {}
+[21.545346] (-) TimerEvent: {}
+[21.646089] (-) TimerEvent: {}
+[21.746848] (-) TimerEvent: {}
+[21.847605] (-) TimerEvent: {}
+[21.948379] (-) TimerEvent: {}
+[22.049109] (-) TimerEvent: {}
+[22.149848] (-) TimerEvent: {}
+[22.250569] (-) TimerEvent: {}
+[22.351379] (-) TimerEvent: {}
+[22.452156] (-) TimerEvent: {}
+[22.552926] (-) TimerEvent: {}
+[22.653664] (-) TimerEvent: {}
+[22.754410] (-) TimerEvent: {}
+[22.855200] (-) TimerEvent: {}
+[22.955948] (-) TimerEvent: {}
+[23.056718] (-) TimerEvent: {}
+[23.157469] (-) TimerEvent: {}
+[23.258187] (-) TimerEvent: {}
+[23.358916] (-) TimerEvent: {}
+[23.459609] (-) TimerEvent: {}
+[23.560390] (-) TimerEvent: {}
+[23.661076] (-) TimerEvent: {}
+[23.761798] (-) TimerEvent: {}
+[23.862513] (-) TimerEvent: {}
+[23.963226] (-) TimerEvent: {}
+[24.063977] (-) TimerEvent: {}
+[24.164750] (-) TimerEvent: {}
+[24.265477] (-) TimerEvent: {}
+[24.366406] (-) TimerEvent: {}
+[24.467154] (-) TimerEvent: {}
+[24.567914] (-) TimerEvent: {}
+[24.668707] (-) TimerEvent: {}
+[24.769484] (-) TimerEvent: {}
+[24.870254] (-) TimerEvent: {}
+[24.970980] (-) TimerEvent: {}
+[25.071736] (-) TimerEvent: {}
+[25.172501] (-) TimerEvent: {}
+[25.273221] (-) TimerEvent: {}
+[25.373954] (-) TimerEvent: {}
+[25.474675] (-) TimerEvent: {}
+[25.575420] (-) TimerEvent: {}
+[25.676127] (-) TimerEvent: {}
+[25.776869] (-) TimerEvent: {}
+[25.877591] (-) TimerEvent: {}
+[25.978372] (-) TimerEvent: {}
+[26.079127] (-) TimerEvent: {}
+[26.179849] (-) TimerEvent: {}
+[26.280604] (-) TimerEvent: {}
+[26.381294] (-) TimerEvent: {}
+[26.482006] (-) TimerEvent: {}
+[26.582755] (-) TimerEvent: {}
+[26.683477] (-) TimerEvent: {}
+[26.784235] (-) TimerEvent: {}
+[26.884920] (-) TimerEvent: {}
+[26.985635] (-) TimerEvent: {}
+[27.086358] (-) TimerEvent: {}
+[27.187076] (-) TimerEvent: {}
+[27.287815] (-) TimerEvent: {}
+[27.388646] (-) TimerEvent: {}
+[27.489400] (-) TimerEvent: {}
+[27.590111] (-) TimerEvent: {}
+[27.690830] (-) TimerEvent: {}
+[27.791659] (-) TimerEvent: {}
+[27.892609] (-) TimerEvent: {}
+[27.993271] (-) TimerEvent: {}
+[28.093932] (-) TimerEvent: {}
+[28.194602] (-) TimerEvent: {}
+[28.295308] (-) TimerEvent: {}
+[28.395969] (-) TimerEvent: {}
+[28.496685] (-) TimerEvent: {}
+[28.597331] (-) TimerEvent: {}
+[28.698029] (-) TimerEvent: {}
+[28.798843] (-) TimerEvent: {}
+[28.899609] (-) TimerEvent: {}
+[29.000356] (-) TimerEvent: {}
+[29.101066] (-) TimerEvent: {}
+[29.201810] (-) TimerEvent: {}
+[29.302585] (-) TimerEvent: {}
+[29.403432] (-) TimerEvent: {}
+[29.504250] (-) TimerEvent: {}
+[29.604982] (-) TimerEvent: {}
+[29.705769] (-) TimerEvent: {}
+[29.806534] (-) TimerEvent: {}
+[29.907291] (-) TimerEvent: {}
+[30.008112] (-) TimerEvent: {}
+[30.109065] (-) TimerEvent: {}
+[30.112366] (msp_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msp_bridge_node.dir/build.make:76: CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o] Error 1\n'}
+[30.113044] (msp_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/msp_bridge_node.dir/all] Error 2\n'}
+[30.113544] (msp_bridge) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.119886] (msp_bridge) CommandEnded: {'returncode': 2}
+[30.157561] (msp_bridge) JobEnded: {'identifier': 'msp_bridge', 'rc': 2}
+[30.168925] (-) EventReactorShutdown: {}

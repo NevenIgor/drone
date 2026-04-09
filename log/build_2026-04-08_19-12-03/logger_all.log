@@ -1,0 +1,161 @@
+[0.818s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'msp_bridge']
+[0.818s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['msp_bridge'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff932bde40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff933c7310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff933c7310>>)
+[1.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.744s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ignore'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ignore_ament_install'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['colcon_pkg']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'colcon_pkg'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['colcon_meta']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'colcon_meta'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['ros']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ros'
+[1.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/icm20948_driver' with type 'ros.ament_cmake' and name 'icm20948_driver'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'ignore'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'ignore_ament_install'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extensions ['colcon_pkg']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'colcon_pkg'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extensions ['colcon_meta']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'colcon_meta'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extensions ['ros']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'ros'
+[1.852s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msp_bridge' with type 'ros.ament_cmake' and name 'msp_bridge'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extensions ['ignore', 'ignore_ament_install']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'ignore'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'ignore_ament_install'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extensions ['colcon_pkg']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'colcon_pkg'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extensions ['colcon_meta']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'colcon_meta'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extensions ['ros']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'ros'
+[1.857s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vo_system' with type 'ros.ament_cmake' and name 'vo_system'
+[1.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.970s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'icm20948_driver' in 'src/icm20948_driver'
+[1.970s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vo_system' in 'src/vo_system'
+[1.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.991s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 195 installed packages in /opt/ros/humble
+[1.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.153s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'cmake_args' from command line to 'None'
+[2.153s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'cmake_target' from command line to 'None'
+[2.153s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.153s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[2.153s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[2.153s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[2.153s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[2.153s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[2.154s] Level 5:colcon.colcon_core.verb:set package 'msp_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.154s] DEBUG:colcon.colcon_core.verb:Building package 'msp_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/msp_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/msp_bridge', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/msp_bridge', 'symlink_install': False, 'test_result_base': None}
+[2.154s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.157s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/msp_bridge' with build type 'ament_cmake'
+[2.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/msp_bridge'
+[2.176s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/msp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/msp_bridge -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/msp_bridge
+[9.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/msp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/msp_bridge -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/msp_bridge
+[9.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/msp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/msp_bridge -- -j4 -l4
+[43.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/msp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/msp_bridge -- -j4 -l4
+[44.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/msp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/msp_bridge
+[44.086s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msp_bridge)
+[44.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/msp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/msp_bridge
+[44.109s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge' for CMake module files
+[44.112s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge' for CMake config files
+[44.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('msp_bridge', 'cmake_prefix_path')
+[44.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/hook/cmake_prefix_path.ps1'
+[44.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/hook/cmake_prefix_path.dsv'
+[44.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/hook/cmake_prefix_path.sh'
+[44.125s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/lib'
+[44.126s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/bin'
+[44.126s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/lib/pkgconfig/msp_bridge.pc'
+[44.127s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/lib/python3.10/site-packages'
+[44.128s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/bin'
+[44.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.ps1'
+[44.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.dsv'
+[44.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.sh'
+[44.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.bash'
+[44.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.zsh'
+[44.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/msp_bridge/share/colcon-core/packages/msp_bridge)
+[44.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msp_bridge)
+[44.156s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge' for CMake module files
+[44.159s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge' for CMake config files
+[44.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('msp_bridge', 'cmake_prefix_path')
+[44.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/hook/cmake_prefix_path.ps1'
+[44.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/hook/cmake_prefix_path.dsv'
+[44.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/hook/cmake_prefix_path.sh'
+[44.168s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/lib'
+[44.168s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/bin'
+[44.169s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/lib/pkgconfig/msp_bridge.pc'
+[44.170s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/lib/python3.10/site-packages'
+[44.171s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/msp_bridge/bin'
+[44.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.ps1'
+[44.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.dsv'
+[44.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.sh'
+[44.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.bash'
+[44.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.zsh'
+[44.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/msp_bridge/share/colcon-core/packages/msp_bridge)
+[44.184s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[44.185s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[44.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[44.186s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[44.189s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[44.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[44.195s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[44.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[44.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[44.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[44.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[44.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[44.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[44.230s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[44.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

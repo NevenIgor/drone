@@ -1,0 +1,10 @@
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/uninstall.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/msp_bridge_uninstall.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/msp_bridge_node.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/test.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/edit_cache.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/list_install_components.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/install.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/install/local.dir
+/home/ubuntu/ros2_ws/build/msp_bridge/CMakeFiles/install/strip.dir

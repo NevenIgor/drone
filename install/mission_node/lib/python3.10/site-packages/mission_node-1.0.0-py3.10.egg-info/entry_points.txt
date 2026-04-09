@@ -1,0 +1,4 @@
+[console_scripts]
+mission_node = mission_node.mission_node:main
+odom_emulator = mission_node.odom_emulator:main
+

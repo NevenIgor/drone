@@ -1,0 +1,16 @@
+/home/ubuntu/ros2_ws/install/msp_bridge/lib/msp_bridge/msp_bridge_node
+/home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/package_run_dependencies/msp_bridge
+/home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/parent_prefix_path/msp_bridge
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/path.sh
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/path.dsv
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.bash
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.sh
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.zsh
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.dsv
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.dsv
+/home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/packages/msp_bridge
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/cmake/msp_bridgeConfig.cmake
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/cmake/msp_bridgeConfig-version.cmake
+/home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.xml

@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.001232] (-) JobUnselected: {'identifier': 'icm20948_driver'}
+[0.001461] (-) JobUnselected: {'identifier': 'vo_system'}
+[0.001745] (msp_bridge) JobQueued: {'identifier': 'msp_bridge', 'dependencies': OrderedDict()}
+[0.001907] (msp_bridge) JobStarted: {'identifier': 'msp_bridge'}
+[0.035254] (msp_bridge) JobProgress: {'identifier': 'msp_bridge', 'progress': 'cmake'}
+[0.038757] (msp_bridge) JobProgress: {'identifier': 'msp_bridge', 'progress': 'build'}
+[0.042592] (msp_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/msp_bridge', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_ws/build/msp_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.4 57344 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/vo_system:/home/ubuntu/ros2_ws/install/msp_bridge:/home/ubuntu/ros2_ws/install/icm20948_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_ws/build/msp_bridge'), ('SSH_CONNECTION', '192.168.1.4 57344 192.168.1.23 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_ws/install/vo_system:/home/ubuntu/ros2_ws/install/msp_bridge:/home/ubuntu/ros2_ws/install/icm20948_driver:/opt/ros/humble')]), 'shell': False}
+[0.098095] (-) TimerEvent: {}
+[0.198999] (-) TimerEvent: {}
+[0.218302] (msp_bridge) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msp_bridge_node\x1b[0m\n'}
+[0.299210] (-) TimerEvent: {}
+[0.309042] (msp_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o\x1b[0m\n'}
+[0.399402] (-) TimerEvent: {}
+[0.500068] (-) TimerEvent: {}
+[0.600719] (-) TimerEvent: {}
+[0.701560] (-) TimerEvent: {}
+[0.802299] (-) TimerEvent: {}
+[0.903008] (-) TimerEvent: {}
+[1.003716] (-) TimerEvent: {}
+[1.104393] (-) TimerEvent: {}
+[1.205098] (-) TimerEvent: {}
+[1.305759] (-) TimerEvent: {}
+[1.406394] (-) TimerEvent: {}
+[1.507040] (-) TimerEvent: {}
+[1.607698] (-) TimerEvent: {}
+[1.708389] (-) TimerEvent: {}
+[1.809036] (-) TimerEvent: {}
+[1.909685] (-) TimerEvent: {}
+[2.010419] (-) TimerEvent: {}
+[2.111151] (-) TimerEvent: {}
+[2.211893] (-) TimerEvent: {}
+[2.312625] (-) TimerEvent: {}
+[2.413352] (-) TimerEvent: {}
+[2.514095] (-) TimerEvent: {}
+[2.614852] (-) TimerEvent: {}
+[2.715622] (-) TimerEvent: {}
+[2.816392] (-) TimerEvent: {}
+[2.917094] (-) TimerEvent: {}
+[3.017825] (-) TimerEvent: {}
+[3.118610] (-) TimerEvent: {}
+[3.219317] (-) TimerEvent: {}
+[3.320100] (-) TimerEvent: {}
+[3.420875] (-) TimerEvent: {}
+[3.521605] (-) TimerEvent: {}
+[3.622369] (-) TimerEvent: {}
+[3.723161] (-) TimerEvent: {}
+[3.823873] (-) TimerEvent: {}
+[3.924592] (-) TimerEvent: {}
+[4.025348] (-) TimerEvent: {}
+[4.126056] (-) TimerEvent: {}
+[4.226883] (-) TimerEvent: {}
+[4.327660] (-) TimerEvent: {}
+[4.428437] (-) TimerEvent: {}
+[4.529257] (-) TimerEvent: {}
+[4.629970] (-) TimerEvent: {}
+[4.730716] (-) TimerEvent: {}
+[4.831429] (-) TimerEvent: {}
+[4.932153] (-) TimerEvent: {}
+[5.032859] (-) TimerEvent: {}
+[5.133580] (-) TimerEvent: {}
+[5.234375] (-) TimerEvent: {}
+[5.335093] (-) TimerEvent: {}
+[5.435811] (-) TimerEvent: {}
+[5.536529] (-) TimerEvent: {}
+[5.637274] (-) TimerEvent: {}
+[5.740494] (-) TimerEvent: {}
+[5.841325] (-) TimerEvent: {}
+[5.942072] (-) TimerEvent: {}
+[6.042807] (-) TimerEvent: {}
+[6.143525] (-) TimerEvent: {}
+[6.244229] (-) TimerEvent: {}
+[6.344929] (-) TimerEvent: {}
+[6.445657] (-) TimerEvent: {}
+[6.546386] (-) TimerEvent: {}
+[6.647085] (-) TimerEvent: {}
+[6.747790] (-) TimerEvent: {}
+[6.848491] (-) TimerEvent: {}
+[6.949239] (-) TimerEvent: {}
+[7.049937] (-) TimerEvent: {}
+[7.150692] (-) TimerEvent: {}
+[7.251403] (-) TimerEvent: {}
+[7.352112] (-) TimerEvent: {}
+[7.452847] (-) TimerEvent: {}
+[7.553582] (-) TimerEvent: {}
+[7.654347] (-) TimerEvent: {}
+[7.755050] (-) TimerEvent: {}
+[7.855768] (-) TimerEvent: {}
+[7.956506] (-) TimerEvent: {}
+[8.057200] (-) TimerEvent: {}
+[8.157918] (-) TimerEvent: {}
+[8.258672] (-) TimerEvent: {}
+[8.359370] (-) TimerEvent: {}
+[8.460085] (-) TimerEvent: {}
+[8.560790] (-) TimerEvent: {}
+[8.661476] (-) TimerEvent: {}
+[8.762214] (-) TimerEvent: {}
+[8.862940] (-) TimerEvent: {}
+[8.963641] (-) TimerEvent: {}
+[9.064358] (-) TimerEvent: {}
+[9.165088] (-) TimerEvent: {}
+[9.265852] (-) TimerEvent: {}
+[9.366613] (-) TimerEvent: {}
+[9.467336] (-) TimerEvent: {}
+[9.568033] (-) TimerEvent: {}
+[9.668740] (-) TimerEvent: {}
+[9.769476] (-) TimerEvent: {}
+[9.870179] (-) TimerEvent: {}
+[9.969508] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[9.970380] (-) TimerEvent: {}
+[9.970815] (msp_bridge) StderrLine: {'line': b'  177 |         payload.push_back(vacc & 0xFF\n'}
+[9.971733] (msp_bridge) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.972132] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:12:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.972579] (msp_bridge) StderrLine: {'line': b'   12 | class GPSBridgeNode : public rclcpp::Node \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[9.973016] (msp_bridge) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.973372] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGPSBridgeNode::GPSBridgeNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.973810] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:14:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KGPSBridgeNode\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kuart_fd_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.974171] (msp_bridge) StderrLine: {'line': b'   14 |     GPSBridgeNode() : Node("gps_bridge"), \x1b[01;31m\x1b[Kuart_fd_\x1b[m\x1b[K(-1) {\n'}
+[9.974602] (msp_bridge) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.009108] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_lat_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.009858] (msp_bridge) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[Kbase_lat_\x1b[m\x1b[K = get_parameter("base_lat").as_double();\n'}
+[10.010387] (msp_bridge) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.032037] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_lon_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.032755] (msp_bridge) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[Kbase_lon_\x1b[m\x1b[K = get_parameter("base_lon").as_double();\n'}
+[10.033220] (msp_bridge) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.054505] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:27:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_alt_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.055061] (msp_bridge) StderrLine: {'line': b'   27 |         \x1b[01;31m\x1b[Kbase_alt_\x1b[m\x1b[K = get_parameter("base_alt").as_double();\n'}
+[10.055426] (msp_bridge) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.070572] (-) TimerEvent: {}
+[10.079389] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:35:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.080049] (msp_bridge) StderrLine: {'line': b'   35 |         \x1b[01;31m\x1b[Kodom_sub_\x1b[m\x1b[K = this->create_subscription<nav_msgs::msg::Odometry>(\n'}
+[10.080471] (msp_bridge) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.080823] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:37:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KGPSBridgeNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.081150] (msp_bridge) StderrLine: {'line': b'   37 |             std::bind(&GPSBridgeNode::\x1b[01;31m\x1b[Kodom_callback\x1b[m\x1b[K, this, std::placeholders::_1)\n'}
+[10.081444] (msp_bridge) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.104763] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kvirtual GPSBridgeNode::~GPSBridgeNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.105492] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:44:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuart_fd_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.105950] (msp_bridge) StderrLine: {'line': b'   44 |         if (\x1b[01;31m\x1b[Kuart_fd_\x1b[m\x1b[K >= 0) close(uart_fd_);\n'}
+[10.106489] (msp_bridge) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.127020] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool GPSBridgeNode::init_uart(const string&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.127582] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:49:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuart_fd_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.127953] (msp_bridge) StderrLine: {'line': b'   49 |         \x1b[01;31m\x1b[Kuart_fd_\x1b[m\x1b[K = open(port.c_str(), O_RDWR | O_NOCTTY | O_NDELAY);\n'}
+[10.128294] (msp_bridge) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.136395] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GPSBridgeNode::send_ublox_nav_pvt(int32_t, int32_t, int32_t, uint8_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.137354] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[10.137995] (msp_bridge) StderrLine: {'line': b'  177 |         payload.push_back(vacc & 0xFF\n'}
+[10.138464] (msp_bridge) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.138828] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.139244] (msp_bridge) StderrLine: {'line': b'  177 |         payload.push_back\x1b[01;36m\x1b[K(\x1b[m\x1b[Kvacc & 0xFF\n'}
+[10.139617] (msp_bridge) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.140143] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[10.140474] (msp_bridge) StderrLine: {'line': b'  177 |         payload.push_back(vacc & 0xFF\n'}
+[10.140756] (msp_bridge) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.141081] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:96:93:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.141420] (msp_bridge) StderrLine: {'line': b'   96 |     void send_ublox_nav_pvt(int32_t lat, int32_t lon, int32_t alt_mm, uint8_t fix_type = 3) \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[10.141750] (msp_bridge) StderrLine: {'line': b'      |                                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.142087] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:\x1b[m\x1b[K At global scope:\n'}
+[10.142593] (msp_bridge) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/msp_bridge/src/msp_bridge.cpp:177:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[10.142956] (msp_bridge) StderrLine: {'line': b'  177 |         payload.push_back(vacc & 0xFF\n'}
+[10.143279] (msp_bridge) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.170758] (-) TimerEvent: {}
+[10.271481] (-) TimerEvent: {}
+[10.372224] (-) TimerEvent: {}
+[10.472972] (-) TimerEvent: {}
+[10.573732] (-) TimerEvent: {}
+[10.674419] (-) TimerEvent: {}
+[10.775279] (-) TimerEvent: {}
+[10.875997] (-) TimerEvent: {}
+[10.976721] (-) TimerEvent: {}
+[11.077548] (-) TimerEvent: {}
+[11.178339] (-) TimerEvent: {}
+[11.279048] (-) TimerEvent: {}
+[11.379767] (-) TimerEvent: {}
+[11.480461] (-) TimerEvent: {}
+[11.581226] (-) TimerEvent: {}
+[11.613111] (msp_bridge) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msp_bridge_node.dir/build.make:76: CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o] Error 1\n'}
+[11.613797] (msp_bridge) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/msp_bridge_node.dir/all] Error 2\n'}
+[11.614390] (msp_bridge) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.621126] (msp_bridge) CommandEnded: {'returncode': 2}
+[11.672637] (msp_bridge) JobEnded: {'identifier': 'msp_bridge', 'rc': 2}
+[11.681334] (-) TimerEvent: {}
+[11.684060] (-) EventReactorShutdown: {}

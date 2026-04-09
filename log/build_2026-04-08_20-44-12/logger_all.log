@@ -1,0 +1,164 @@
+[0.411s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'icm20948_driver']
+[0.411s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['icm20948_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa7a9e050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa7ba7520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa7ba7520>>)
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.045s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ignore'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ignore_ament_install'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['colcon_pkg']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'colcon_pkg'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['colcon_meta']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'colcon_meta'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extensions ['ros']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/icm20948_driver) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/icm20948_driver' with type 'ros.ament_cmake' and name 'icm20948_driver'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/msp_bridge) by extension 'ros'
+[1.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msp_bridge' with type 'ros.ament_cmake' and name 'msp_bridge'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extensions ['ignore', 'ignore_ament_install']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'ignore'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'ignore_ament_install'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extensions ['colcon_pkg']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'colcon_pkg'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extensions ['colcon_meta']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'colcon_meta'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extensions ['ros']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/vo_system) by extension 'ros'
+[1.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vo_system' with type 'ros.ament_cmake' and name 'vo_system'
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.198s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'msp_bridge' in 'src/msp_bridge'
+[1.198s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vo_system' in 'src/vo_system'
+[1.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.205s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ros2_ws/install/icm20948_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.206s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ros2_ws/install/icm20948_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/ros2_ws/install
+[1.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 195 installed packages in /opt/ros/humble
+[1.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_args' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_target' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.372s] Level 5:colcon.colcon_core.verb:set package 'icm20948_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.372s] DEBUG:colcon.colcon_core.verb:Building package 'icm20948_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/icm20948_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/icm20948_driver', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/icm20948_driver', 'symlink_install': False, 'test_result_base': None}
+[1.372s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.376s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/icm20948_driver' with build type 'ament_cmake'
+[1.377s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/icm20948_driver'
+[1.385s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/icm20948_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/icm20948_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/icm20948_driver
+[6.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/icm20948_driver -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/icm20948_driver
+[6.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/icm20948_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/icm20948_driver -- -j4 -l4
+[25.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/icm20948_driver -- -j4 -l4
+[25.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/icm20948_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/icm20948_driver
+[25.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icm20948_driver)
+[25.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/icm20948_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/icm20948_driver
+[25.205s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver' for CMake module files
+[25.208s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver' for CMake config files
+[25.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_driver', 'cmake_prefix_path')
+[25.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.ps1'
+[25.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.dsv'
+[25.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.sh'
+[25.218s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/lib'
+[25.218s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/bin'
+[25.219s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/lib/pkgconfig/icm20948_driver.pc'
+[25.220s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/lib/python3.10/site-packages'
+[25.221s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/bin'
+[25.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.ps1'
+[25.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.dsv'
+[25.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.sh'
+[25.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.bash'
+[25.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.zsh'
+[25.237s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/icm20948_driver/share/colcon-core/packages/icm20948_driver)
+[25.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(icm20948_driver)
+[25.241s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver' for CMake module files
+[25.244s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver' for CMake config files
+[25.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('icm20948_driver', 'cmake_prefix_path')
+[25.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.ps1'
+[25.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.dsv'
+[25.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/hook/cmake_prefix_path.sh'
+[25.252s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/lib'
+[25.253s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/bin'
+[25.253s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/lib/pkgconfig/icm20948_driver.pc'
+[25.254s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/lib/python3.10/site-packages'
+[25.255s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/icm20948_driver/bin'
+[25.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.ps1'
+[25.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.dsv'
+[25.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.sh'
+[25.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.bash'
+[25.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.zsh'
+[25.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/icm20948_driver/share/colcon-core/packages/icm20948_driver)
+[25.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.270s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.272s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[25.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[25.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[25.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[25.291s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[25.294s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[25.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[25.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[25.306s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[25.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

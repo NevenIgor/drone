@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/vo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/vo_system -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/vo_system
+Invoked command in '/home/ubuntu/ros2_ws/build/vo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/vo_system -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/vo_system
+Invoking command in '/home/ubuntu/ros2_ws/build/vo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/vo_system -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_ws/build/vo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/vo_system -- -j4 -l4
+Invoking command in '/home/ubuntu/ros2_ws/build/vo_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/vo_system
+Invoked command in '/home/ubuntu/ros2_ws/build/vo_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/vo_system

@@ -1,0 +1,26 @@
+[0.050s] Invoking command in '/home/ubuntu/ros2_ws/build/msp_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/msp_bridge -- -j4 -l4
+[0.211s] [35m[1mConsolidate compiler generated dependencies of target msp_bridge_node[0m
+[0.300s] [ 50%] [32mBuilding CXX object CMakeFiles/msp_bridge_node.dir/src/msp_bridge.cpp.o[0m
+[31.541s] [100%] [32m[1mLinking CXX executable msp_bridge_node[0m
+[33.406s] [100%] Built target msp_bridge_node
+[33.443s] Invoked command in '/home/ubuntu/ros2_ws/build/msp_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/msp_bridge -- -j4 -l4
+[33.484s] Invoking command in '/home/ubuntu/ros2_ws/build/msp_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/msp_bridge
+[33.510s] -- Install configuration: ""
+[33.511s] -- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/lib/msp_bridge/msp_bridge_node
+[33.539s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/msp_bridge/lib/msp_bridge/msp_bridge_node" to ""
+[33.540s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/package_run_dependencies/msp_bridge
+[33.540s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/parent_prefix_path/msp_bridge
+[33.540s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/ament_prefix_path.sh
+[33.541s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/ament_prefix_path.dsv
+[33.541s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/path.sh
+[33.542s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/environment/path.dsv
+[33.542s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.bash
+[33.543s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.sh
+[33.543s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.zsh
+[33.543s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/local_setup.dsv
+[33.544s] -- Installing: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.dsv
+[33.544s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/ament_index/resource_index/packages/msp_bridge
+[33.545s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/cmake/msp_bridgeConfig.cmake
+[33.546s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/cmake/msp_bridgeConfig-version.cmake
+[33.546s] -- Up-to-date: /home/ubuntu/ros2_ws/install/msp_bridge/share/msp_bridge/package.xml
+[33.551s] Invoked command in '/home/ubuntu/ros2_ws/build/msp_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/msp_bridge

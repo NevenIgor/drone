@@ -1,0 +1,16 @@
+/home/ubuntu/ros2_ws/install/icm20948_driver/lib/icm20948_driver/icm20948_node
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/ament_index/resource_index/package_run_dependencies/icm20948_driver
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/ament_index/resource_index/parent_prefix_path/icm20948_driver
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/environment/path.sh
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/environment/path.dsv
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/local_setup.bash
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/local_setup.sh
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/local_setup.zsh
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/local_setup.dsv
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.dsv
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/ament_index/resource_index/packages/icm20948_driver
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/cmake/icm20948_driverConfig.cmake
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/cmake/icm20948_driverConfig-version.cmake
+/home/ubuntu/ros2_ws/install/icm20948_driver/share/icm20948_driver/package.xml

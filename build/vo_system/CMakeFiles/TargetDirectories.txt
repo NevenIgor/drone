@@ -1,0 +1,9 @@
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/uninstall.dir
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/vo_system_uninstall.dir
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/test.dir
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/edit_cache.dir
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/list_install_components.dir
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/install.dir
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/install/local.dir
+/home/ubuntu/ros2_ws/build/vo_system/CMakeFiles/install/strip.dir
